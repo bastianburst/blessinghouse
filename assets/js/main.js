@@ -1,6 +1,6 @@
 $(document).ready(function () {
     getSongs();
-    initPlayer();
+    //initPlayer();
 });
 
 var audio = document.getElementById('player');
@@ -37,7 +37,7 @@ function playSong(song) {
         //la cual esta en los valores del json
         //a los que accedemos mediante el array music que ya tenemos capturado
         $('#player').attr('src', music.songs[song].song);
-        nameplay.innerHTML = "<p>" + music.songs[song].nombre + " " + music.songs[song].artist + "</p>";
+        nameplay.innerHTML = "<p>" + music.songs[song].nombre + " - " + music.songs[song].artist + "</p>";
         //Como ya tenemos el elemento por su ID con getElementById
         //Ahora accedemos al elemento y con el metodo play() que es
         //propio del reproductor o etiqueta audio

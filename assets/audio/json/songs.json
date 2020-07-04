@@ -2,9 +2,9 @@
     "songs": [
         {
             "id": 0,
-            "nombre": "Me llevas alto",
-            "artist": "Redimi2",
-            "song": "./assets/audio/songs/Me Llevas Más Alto Alex Campos, Redimi2.mp3"
+            "nombre": "Aquí estas - instrumental",
+            "artist": "Way maker",
+            "song": "./assets/audio/songs/way-maker-spanish-instrumental.mp3"
         },
         {
             "id": 1,
@@ -19,16 +19,22 @@
             "song": "./assets/audio/songs/Hillsong United - there is nothing like.mp3"
         },
                 {
-            "id": 2,
+            "id": 3,
             "nombre": "Vives en mi",
             "artist": "Hillsong",
             "song": "./assets/audio/songs/isaac-moraleja-vives-en-mi-wake-hillsong.mp3"
         },
                 {
-            "id": 2,
+            "id": 4,
             "nombre": "Conmigo estás",
             "artist": "Hillsong",
             "song": "./assets/audio/songs/hillsong-en-espanol-conmigo-estas-letra.mp3"
-        }
+        },
+        {
+            "id": 5,
+            "nombre": "Me llevas alto",
+            "artist": "Redimi2",
+            "song": "./assets/audio/songs/Me Llevas Más Alto Alex Campos, Redimi2.mp3"
+        }      
     ]
 }
