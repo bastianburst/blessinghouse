@@ -59,7 +59,7 @@
             <div class="container_text">
                 <p class="welcome_text">Bienvenidos</p>
 
-                <p class="text2">Casa de bendición Sembrador A</p>
+                <p class="text2">Casa de bendición <span>Sembrador A</span></p>
             </div>
 
         </div>
@@ -70,12 +70,14 @@
 
         <div class="container_audio">
             <div class="audio_player">
-                <img class="music" src="assets/img/music.png" width="50px" height="50px" />
-                <audio controls="controls"></audio>
+                <img class="music" src="assets/img/music.png" width="40px" height="40px" />
+                <div id="playershow"></div>
+                <audio id="player" controls></audio>
             </div>
         </div>
 
     </section>
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 

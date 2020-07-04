@@ -52,10 +52,16 @@ body{
 .container_audio{
     position: fixed;
     bottom: 0;
-    right:0
+    right:0;
+
 }
 .audio_player{
-
+    display: flex;
+    justify-content: space-around;
+    color:white;
+}
+.audio_player > div{
+    padding: 0 1em 0 1em;
 }
 /*animations*/
 .square, .square2{
@@ -206,3 +212,19 @@ body{
   }
 
 /*media queries*/
+
+@media(max-width:700px){
+    .container{
+        flex-direction: column;
+        margin-left: 2em;
+    }
+
+    .welcome_text{
+        font-family: 'Courgette', cursive;
+        font-size:3em;
+    }
+    .text2{
+        font-family: 'Courgette', cursive;
+        font-size:2em;
+    }
+}
