@@ -2,7 +2,7 @@
     "songs": [
         {
             "id": 0,
-            "nombre": "Aquí estas - instrumental",
+            "nombre": "Aquí estás - instrumental",
             "artist": "Way maker",
             "song": "./assets/audio/songs/way-maker-spanish-instrumental.mp3"
         },
